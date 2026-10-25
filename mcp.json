@@ -1,0 +1,51 @@
+{
+  "name": "silvio-micali-ai-mcp",
+  "version": "1.0.0",
+  "description": "Silvio Micali AI Model Context Protocol Server for Autonomous Zero-Knowledge Protocol Engineering, Verifiable Random Functions (VRF), Pure Proof-of-Stake & Byzantine Agreement Protocol",
+  "tools": [
+    {
+      "name": "audit_vrf_sortition_entropy",
+      "description": "Analyze VRF pseudo-random outputs and cryptographic sortition entropy against adaptive adversary manipulation",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "vrf_seed": {
+            "type": "string"
+          },
+          "committee_size": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "vrf_seed"
+        ]
+      }
+    },
+    {
+      "name": "disburse_byzantine_consensus_grant",
+      "description": "Trigger automated micro-escrow releases for scalable Byzantine agreement research, non-interactive zero-knowledge proofs, and zero-fork blockchain consensus",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
